@@ -1,0 +1,25 @@
+### idt
+
+WARN: CONFIG_STRICT_DEVMEM must not be set in /usr/src/linux/.config
+
+$ grep DEVMEM /usr/src/linux/.config
+
+Don't use
+
+__asm__ volatile("sidt %0" : "=m"(idtr));
+
+for IDT address, just for the limit since I am on a VM.
+
+"Reading the IDTR will unfortunately not work inside most
+virtual machines. Because the lidt instruction is a protected
+instruction, an exception will be generated that the VM will catch.
+This allows the VM to keep a virtual IDTR for each operating system.
+Since the sidt instruction is not handled, it will return a bogus address
+for the IDTR, usually above 0xffc00000. [1]"
+
+Rather set IDT address manually from /boot/System.map*
+and set the idtr limit to 0x7ff.
+
+$ grep idt_table /boot/System.map*
+	
+[1] http://www.blackhat.com/presentations/bh-europe-09/Lineberry/BlackHat-Europe-2009-Lineberry-code-injection-via-dev-mem.pdf
