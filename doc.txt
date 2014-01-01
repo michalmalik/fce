@@ -1,0 +1,83 @@
+=== Computer theory
+
+[1] http://duartes.org/gustavo/blog/best-of
+[2] http://wiki.osdev.org/Main_Page
+[3] http://resources.infosecinstitute.com/protected-mode-and-the-idt/
+[4] http://www.codeproject.com/Articles/19648/Get-interrupt-vector-information-in-Windows 
+[5] Code: The Hidden Language of Computer Hardware and Software by Charles Petzold
+[6] Operating Systems Design and Implementation by Andrew S. Tanenbaum and Albert S. Woodhull
+[7] The Indispensable PC Hardware Book by Hans-Peter Messmer 
+[8] Computer Networks by Andrew S. Tanenbaum and David J. Wetherall
+[9] Assemblers and Loaders by David Salomon http://www.davidsalomon.name/assem.advertis/asl.pdf
+
+=== RE/hacking/cryptography
+
+[1] The Rootkit Arsenal: Escape and Evasion in the Dark Corners of the System by Bill Bunden
+[2] Security Engineering by Ross Anderson http://www.cl.cam.ac.uk/~rja14/book.html
+[3] The Art of Computer Virus Research and Defense by Peter Szor
+[4] Malware Forensics: Investigating and Analyzing Malicious Code by Cameron H. Malin, Eoghan Casey, James M. Aquilina
+[5] Reversing: Secrets of Reverse Engineering by Eldad Eilam
+[6] http://securityxploded.com/security-training-reversing-malware-analysis.php
+[7] http://securityxploded.com/security-training-advanced-malware-analysis.php
+[8] Computer Security and Cryptography by Alan G. Konheim
+[9] Handbook of Applied Cryptography by A. J. Menezes, P. C. van Oorschot, S. A. Vanstone
+[10] Hacking: The Art of Exploitation by Jon Erickson
+[11] Gray Hat Python: Python Programming for Hackers and Reverse Engineers by Justin Seitz
+[12] http://opensecuritytraining.info/Training.html
+[13] The Art of Unpacking part 1 https://www.blackhat.com/presentations/bh-usa-07/Yason/Presentation/bh-usa-07-yason.pdf
+[14] The Art of Unpacking part 2 https://www.blackhat.com/presentations/bh-usa-07/Yason/Whitepaper/bh-usa-07-yason-WP.pdf
+[15] Anti-Unpacker Tricks by Peter Ferrie http://pferrie.tripod.com/papers/unpackers.pdf
+[16] How to Write Your Own Packer by BigBoote http://www.stonedcoder.org/~kd/lib/61-267-1-PB.pdf
+[17] A study of the packer problem and its solutions by Fanglu Guo, Peter Ferrie, Tzi-cker Chiueh http://www.ecsl.cs.sunysb.edu/tr/TR237.pdf
+[18] IDA Pro Book by Chris Eagle http://www.nostarch.com/idapro2.htm
+[18] http://www.blackhat.com/presentations/bh-usa-04/bh-us-04-eagle.pdf
+[20] http://www.hackerschool.org/HS_Boards/data/Lib_windows/%5BBlackHat%5Deagle_ida_pro_06.pdf
+[21] ARTeam eZine http://www.accessroot.com/arteam/site/download.php?list.8
+[22] A model for Self-Modifying Code by Bertrand Anckaert, Matias Madou, Koen De Bosschere http://tuts4you.com/download.php?view.3529
+[23] Demystifying .NET RE part 1 http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-part-1-big-introduction/
+[24] Demystifying .NET RE part 2 http://resources.infosecinstitute.com/dot-net-reverse-engineering-part-2/
+[25] Demistifying .NET RE part 3 http://resources.infosecinstitute.com/dot-net-reverse-engineering-part-3/
+[26] http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-introducing-round-trip-engineering/
+[27] http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-advanced-round-trip-engineering/
+
+=== Windows kernel debugging
+
+[1] http://briolidz.wordpress.com/2012/03/28/windows-driver-debugging-with-windbg-and-vmware/
+[2] http://www.windbg.info/doc/1-common-cmds.html#17_variables
+[3] http://msdn.microsoft.com/en-us/library/windows/hardware/ff550659(v=vs.85).aspx
+[4] http://www.woodmann.com/forum/archive/index.php/t-6713.html
+[5] http://blogs.technet.com/b/markrussinovich/archive/2010/10/14/3360991.aspx
+[6] http://disruptivesql.wordpress.com/
+
+=== Linux kernel
+
+[1] http://info.fs.tum.de/images/2/21/2011-01-19-kernel-hacking.pdf
+[2] http://jvns.ca/blog/2013/10/07/day-5-i-wrote-a-kernel-module/
+[3] https://github.com/citypw/citypw-SCFE/tree/master/security
+[4] http://rpinfosec.blogspot.sk/2012/06/hooking-linux-system-call-table-in-2012.html
+[5] http://stackoverflow.com/questions/2103315/linux-kernel-system-call-hooking-example
+[6] http://kernelnewbies.org/Networking?action=AttachFile&do=get&target=hacking_the_wholism_of_linux_net.txt
+[7] http://phrack.org/issues.html?issue=67&id=6#article
+[8] http://www.phrack.org/issues.html?issue=59&id=4
+[9] http://kernelnewbies.org/New_Kernel_Hacking_HOWTO
+[10] https://ruinedsec.wordpress.com/2013/04/04/modifying-system-calls-dispatching-linux/
+[11] http://www.blackhat.com/presentations/bh-europe-09/Lineberry/BlackHat-Europe-2009-Lineberry-code-injection-via-dev-mem-slides.pdf
+[12] http://www.la-samhna.de/library/rootkits/index.html
+[13] http://www.blackhat.com/presentations/bh-europe-09/Lineberry/BlackHat-Europe-2009-Lineberry-code-injection-via-dev-mem.pdf
+[14] http://mammon.github.io/
+
+=== Mac OSX
+
+[1] http://0xfeedface.org/~shawn/docs
+[2] http://reverse.put.as/
+[3] http://samhuri.net/blog/2010.01.18-basics-of-the-mach-o-file-format
+[4] http://en.wikipedia.org/wiki/List_of_file_signatures
+[5] IDA FIX OBJC_MSGSEND SCRIPT https://github.com/zynamics/objc-helper-plugin-ida
+[6] http://www.sysprobs.com/os-x-mountain-lion-10-8-3-vmware-image-how-to-run-on-windows-7-8
+[7] http://www.sysprobs.com/vmware-workstation-8-0-8-0-1-unlocker-to-run-mac-os-x-guest-in-windows-7
+[8] http://archive.org/details/RECON2008 (T06)
+[9] The Mac Hacker's Handbook by Charlie Miller
+
+=== OpenSSL
+
+[1] http://www.madboa.com/geek/openssl/
