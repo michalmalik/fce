@@ -1,0 +1,15 @@
+=== calculator injector
+
+This is just a demonstration of Win32 DLL injection to a process.
+
+First, we create the calc process by CreateProcess("C:\Windows\system32\calc.exe",..), then
+we allocate RW memory of size strlen(dll_name) in the calc process with VirtualAllocEx().
+WriteProcessMemory() writes the string to the allocated memory. CreateRemoteThread() is executed
+at LoadLibraryA kernel API and loads the DLL. 
+
+$ D:\_WORK\dev>inject.exe
+[OK] CreateProcess C:\Windows\System32\calc.exe
+[OK] VirtualAllocEx to 0x00080000
+[OK] WriteProcessMememory to 0x00080000 :: "inject.dll",10
+[OK] CreateRemoteThread at 0x00080000 :: LoadLibrary("inject.dll")
+$ D:\_WORK\dev>
