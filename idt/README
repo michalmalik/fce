@@ -1,4 +1,4 @@
-### idt
+=== idt
 
 WARN: CONFIG_STRICT_DEVMEM must not be set in /usr/src/linux/.config
 
