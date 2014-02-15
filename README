@@ -13,6 +13,9 @@ just a collection of code that I wrote and put here for safekeeping purposes
 [7] "The Indispensable PC Hardware Book" by Hans-Peter Messmer 
 [8] "Computer Networks" by Andrew S. Tanenbaum and David J. Wetherall
 [9] "Assemblers and Loaders" by David Salomon http://www.davidsalomon.name/assem.advertis/asl.pdf
+[10] "x86_64 assembly" http://www.x86-64.org/documentation/assembly.html
+[11] http://sandpile.org/
+[12] "Roll your own UNIX distro" http://www.jamesmolloy.co.uk/tutorial_html/index.html
 
 === RE/hacking/cryptography
 
@@ -46,6 +49,7 @@ just a collection of code that I wrote and put here for safekeeping purposes
 [28] "Linux Rootkits 101" http://turbochaos.blogspot.sk/2013/09/linux-rootkits-101-1-of-3.html
 [29] "Linux Rootkits 201" http://turbochaos.blogspot.sk/2013/10/writing-linux-rootkits-201-23.html
 [30] "Linux Rootkits 301" http://turbochaos.blogspot.sk/2013/10/writing-linux-rootkits-301_31.html
+[31] "Salted Password Hashing Doing it Right" http://www.codeproject.com/Articles/704865/Salted-Password-Hashing-Doing-it-Right
 
 === Windows kernel debugging
 
@@ -72,6 +76,7 @@ just a collection of code that I wrote and put here for safekeeping purposes
 [12] http://www.la-samhna.de/library/rootkits/index.html
 [13] http://www.blackhat.com/presentations/bh-europe-09/Lineberry/BlackHat-Europe-2009-Lineberry-code-injection-via-dev-mem.pdf
 [14] http://mammon.github.io/
+[15] http://lwn.net/Kernel/LDD3/
 
 === Mac OSX
 
