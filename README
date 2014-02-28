@@ -2,6 +2,8 @@
 
 just a collection of code that I wrote and put here for safekeeping purposes
 
+Information sources:
+
 === Computer theory
 
 [1] http://duartes.org/gustavo/blog/best-of
@@ -50,6 +52,9 @@ just a collection of code that I wrote and put here for safekeeping purposes
 [29] "Linux Rootkits 201" http://turbochaos.blogspot.sk/2013/10/writing-linux-rootkits-201-23.html
 [30] "Linux Rootkits 301" http://turbochaos.blogspot.sk/2013/10/writing-linux-rootkits-301_31.html
 [31] "Salted Password Hashing Doing it Right" http://www.codeproject.com/Articles/704865/Salted-Password-Hashing-Doing-it-Right
+[32] http://www.madboa.com/geek/openssl/
+[33] "Is there any particular reason to use Diffie-Hellman over RSA for key exchange?" http://security.stackexchange.com/questions/35471/is-there-any-particular-reason-to-use-diffie-hellman-over-rsa-for-key-exchange
+[34] "What's the fundamental difference between Diffie-Hellman and RSA?" http://crypto.stackexchange.com/questions/2867/whats-the-fundamental-difference-between-diffie-hellman-and-rsa
 
 === Windows kernel debugging
 
@@ -89,7 +94,3 @@ just a collection of code that I wrote and put here for safekeeping purposes
 [7] http://www.sysprobs.com/vmware-workstation-8-0-8-0-1-unlocker-to-run-mac-os-x-guest-in-windows-7
 [8] http://archive.org/details/RECON2008 (T06)
 [9] "The Mac Hacker's Handbook" by Charlie Miller
-
-=== OpenSSL
-
-[1] http://www.madboa.com/geek/openssl/
