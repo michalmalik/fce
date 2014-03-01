@@ -55,6 +55,7 @@ Information sources:
 [32] http://www.madboa.com/geek/openssl/
 [33] "Is there any particular reason to use Diffie-Hellman over RSA for key exchange?" http://security.stackexchange.com/questions/35471/is-there-any-particular-reason-to-use-diffie-hellman-over-rsa-for-key-exchange
 [34] "What's the fundamental difference between Diffie-Hellman and RSA?" http://crypto.stackexchange.com/questions/2867/whats-the-fundamental-difference-between-diffie-hellman-and-rsa
+[35] "Applied Cryptography" by Bruce Schneier
 
 === Windows kernel debugging
 
