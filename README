@@ -107,7 +107,8 @@ Information sources:
 [23] "Linux x86 run-time process manipulation" http://hick.org/code/skape/papers/needle.txt
 [24] "How to detect virtualization on Linux" http://www.dmo.ca/blog/detecting-virtualization-on-linux/  
 [25] "ptrace() tutorial" http://mikecvet.wordpress.com/2010/08/14/ptrace-tutorial/
-[26] "ptrace() on 64-bit system" http://theantway.com/2013/01/notes-for-playing-with-ptrace-on-64-bits-ubuntu-12-10/  
+[26] "ptrace() on 64-bit system" http://theantway.com/2013/01/notes-for-playing-with-ptrace-on-64-bits-ubuntu-12-10/
+[27] http://www.ouah.org/linux-anti-debugging.txt  
 
 === Mac OSX
 
