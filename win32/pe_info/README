@@ -1,0 +1,47 @@
+== win32 PE info
+
+Demonstration of PE info extraction.
+
+Important structures are IMAGE_DOS_HEADER [1], and IMAGE_NT_HEADERS [2] (file, optional, section etc.).
+
+typedef struct _IMAGE_DOS_HEADER
+{
+     WORD e_magic;
+     WORD e_cblp;
+     WORD e_cp;
+     WORD e_crlc;
+     WORD e_cparhdr;
+     WORD e_minalloc;
+     WORD e_maxalloc;
+     WORD e_ss;
+     WORD e_sp;
+     WORD e_csum;
+     WORD e_ip;
+     WORD e_cs;
+     WORD e_lfarlc;
+     WORD e_ovno;
+     WORD e_res[4];
+     WORD e_oemid;
+     WORD e_oeminfo;
+     WORD e_res2[10];
+     LONG e_lfanew;
+} IMAGE_DOS_HEADER, *PIMAGE_DOS_HEADER;
+
+typedef struct _IMAGE_NT_HEADERS {
+  DWORD                 Signature;
+  IMAGE_FILE_HEADER     FileHeader;
+  IMAGE_OPTIONAL_HEADER OptionalHeader;
+} IMAGE_NT_HEADERS, *PIMAGE_NT_HEADERS;
+
+peinfo takes PID in hex format, reads DOS header and NT Header (image_base+dos_header.e_lfanew) 
+from the process memory and outputs imagebase, PE signature, size of the image and the entry point address.
+
+$ D:\_WORK\dev>peinfo.exe e1c
+Image base: 0x00400000
+PE signature: 0x4550
+Size of image: 0x005a1000
+Entry point: 0x00002c61
+$ D:\_WORK\dev>
+
+[1] http://www.nirsoft.net/kernel_struct/vista/IMAGE_DOS_HEADER.html
+[2] http://msdn.microsoft.com/en-us/library/windows/desktop/ms680336(v=vs.85).aspx

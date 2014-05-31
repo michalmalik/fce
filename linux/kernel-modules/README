@@ -1,0 +1,61 @@
+=== linux lkm
+
+a collection of my kernel modules
+
+print out kernel symbols
+------------------------
+
+$ cat /boot/System.map*
+
+disasm kernel function, symbol
+------------------------------
+
+$ localhost ~ # gdb -q /usr/src/linux/vmlinux
+Reading symbols from /usr/src/linux-3.10.17-gentoo/vmlinux...(no debugging symbols found)...done.
+(gdb) disas system_call
+Dump of assembler code for function system_call:
+   0xc048b410 <+0>:     lea    esi,[esi+0x0]
+   0xc048b413 <+3>:     push   eax
+   0xc048b414 <+4>:     cld
+   0xc048b415 <+5>:     push   0x0
+   0xc048b417 <+7>:     push   fs
+   0xc048b419 <+9>:     push   es
+   0xc048b41a <+10>:    push   ds
+   0xc048b41b <+11>:    push   eax
+   0xc048b41c <+12>:    push   ebp
+   0xc048b41d <+13>:    push   edi
+   0xc048b41e <+14>:    push   esi
+   0xc048b41f <+15>:    push   edx
+   0xc048b420 <+16>:    push   ecx
+   0xc048b421 <+17>:    push   ebx
+   0xc048b422 <+18>:    mov    edx,0x7b
+   0xc048b427 <+23>:    mov    ds,edx
+   0xc048b429 <+25>:    mov    es,edx
+   0xc048b42b <+27>:    mov    edx,0xd8
+   0xc048b430 <+32>:    mov    fs,edx
+   0xc048b432 <+34>:    mov    ebp,0xffffe000
+   0xc048b437 <+39>:    and    ebp,esp
+   0xc048b439 <+41>:    test   DWORD PTR [ebp+0x8],0x100801d1
+   0xc048b440 <+48>:    jne    0xc048b51c <syscall_trace_entry>
+   0xc048b446 <+54>:    cmp    eax,0x15f
+   0xc048b44b <+59>:    jae    0xc048b568 <syscall_badsys>
+   0xc048b451 <+65>:    call   DWORD PTR [eax*4-0x3fb6ceb8]
+   0xc048b458 <+72>:    mov    DWORD PTR [esp+0x18],eax
+   0xc048b45c <+0>:     cli
+   0xc048b45d <+1>:     mov    ecx,DWORD PTR [ebp+0x8]
+   0xc048b460 <+4>:     test   ecx,0x1008feff
+   0xc048b466 <+10>:    jne    0xc048b53c <syscall_exit_work>
+   0xc048b46c <+0>:     mov    eax,DWORD PTR [esp+0x38]
+   0xc048b470 <+4>:     mov    ah,BYTE PTR [esp+0x40]
+   0xc048b474 <+8>:     mov    al,BYTE PTR [esp+0x34]
+   0xc048b478 <+12>:    and    eax,0x20403
+   0xc048b47d <+17>:    cmp    eax,0x403
+   0xc048b482 <+22>:    je     0xc048b493 <ldt_ss>
+   0xc048b484 <+0>:     pop    ebx
+   0xc048b485 <+1>:     pop    ecx
+   0xc048b486 <+2>:     pop    edx
+   0xc048b487 <+3>:     pop    esi
+   0xc048b488 <+4>:     pop    edi
+   0xc048b489 <+5>:     pop    ebp
+   0xc048b48a <+6>:     pop    eax
+   0xc048b48b <+7>:     pop    ds

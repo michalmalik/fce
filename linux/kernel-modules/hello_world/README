@@ -1,0 +1,6 @@
+=== hello world lkm
+
+A simple hello world kernel module.
+
+$ localhost hello_world # dmesg
+[  764.377972] Hello World!
