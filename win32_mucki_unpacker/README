@@ -1,6 +1,0 @@
-=== mucki protector unpacker
-
-unpacker for http://crackmes.de/users/mucki/muckis_protector/
-
-raw offset = rva - section virtual address + section raw offset
-rva = raw offset + section virtual address - section raw offset

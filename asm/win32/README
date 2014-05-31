@@ -1,5 +1,0 @@
-=== win32 asm
-
-I used fasm [1], which is an excellent multiplatform assembler.
-
-[1] http://flatassembler.net/
