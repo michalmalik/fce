@@ -19,54 +19,68 @@ Information sources:
 [11] http://sandpile.org/
 [12] "Roll your own UNIX distro" http://www.jamesmolloy.co.uk/tutorial_html/index.html
 
-=== RE/hacking/cryptography
+=== Cryptography
+
+[1] "Computer Security and Cryptography" by Alan G. Konheim
+[2] "Handbook of Applied Cryptography" by A. J. Menezes, P. C. van Oorschot, S. A. Vanstone
+[3] "Applied Cryptography" by Bruce Schneier
+[4] https://www.crypto101.io/ by Laurens Van Houtven
+[5] http://www.madboa.com/geek/openssl/
+[6] "Salted Password Hashing Doing it Right" http://www.codeproject.com/Articles/704865/Salted-Password-Hashing-Doing-it-Right
+[7] "Applied Mathematics for Reversers I" by Haldir[RET] http://www.reteam.org/papers/e20.pdf 
+[8] "Applied Mathematics for Reversers II" by Haldir[RET] http://www.reteam.org/papers/e31.pdf
+[9] "Applied Mathematics for Reversers III" by Haldir[RET] http://www.reteam.org/papers/e36.pdf 
+
+=== General RE/hacking
 
 [1] "The Rootkit Arsenal: Escape and Evasion in the Dark Corners of the System" by Bill Bunden
 [2] "Security Engineering" by Ross Anderson http://www.cl.cam.ac.uk/~rja14/book.html
 [3] "The Art of Computer Virus Research and Defense" by Peter Szor
 [4] "Malware Forensics: Investigating and Analyzing Malicious Code" by Cameron H. Malin, Eoghan Casey, James M. Aquilina
 [5] "Reversing: Secrets of Reverse Engineering" by Eldad Eilam
-[6] http://securityxploded.com/security-training-reversing-malware-analysis.php
-[7] http://securityxploded.com/security-training-advanced-malware-analysis.php
-[8] "Computer Security and Cryptography" by Alan G. Konheim
-[9] "Handbook of Applied Cryptography" by A. J. Menezes, P. C. van Oorschot, S. A. Vanstone
-[10] "Hacking: The Art of Exploitation" by Jon Erickson
-[11] "Gray Hat Python: Python Programming for Hackers and Reverse Engineers" by Justin Seitz
-[12] http://opensecuritytraining.info/Training.html
-[13] "The Art of Unpacking part 1" https://www.blackhat.com/presentations/bh-usa-07/Yason/Presentation/bh-usa-07-yason.pdf
-[14] "The Art of Unpacking part 2" https://www.blackhat.com/presentations/bh-usa-07/Yason/Whitepaper/bh-usa-07-yason-WP.pdf
-[15] "Anti-Unpacker Tricks by Peter Ferrie" http://pferrie.tripod.com/papers/unpackers.pdf
-[16] "How to Write Your Own Packer" by BigBoote http://www.stonedcoder.org/~kd/lib/61-267-1-PB.pdf
-[17] "A study of the packer problem and its solutions" by Fanglu Guo, Peter Ferrie, Tzi-cker Chiueh http://www.ecsl.cs.sunysb.edu/tr/TR237.pdf
-[18] "IDA Pro Book by Chris Eagle" http://www.nostarch.com/idapro2.htm
-[18] http://www.blackhat.com/presentations/bh-usa-04/bh-us-04-eagle.pdf
-[20] http://www.hackerschool.org/HS_Boards/data/Lib_windows/%5BBlackHat%5Deagle_ida_pro_06.pdf
-[21] ARTeam eZine http://www.accessroot.com/arteam/site/download.php?list.8
-[22] "A model for Self-Modifying Code" by Bertrand Anckaert, Matias Madou, Koen De Bosschere http://tuts4you.com/download.php?view.3529
-[23] "Demystifying .NET RE part 1" http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-part-1-big-introduction/
-[24] "Demystifying .NET RE part 2" http://resources.infosecinstitute.com/dot-net-reverse-engineering-part-2/
-[25] "Demistifying .NET RE part 3" http://resources.infosecinstitute.com/dot-net-reverse-engineering-part-3/
-[26] http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-introducing-round-trip-engineering/
-[27] http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-advanced-round-trip-engineering/
-[28] "Linux Rootkits 101" http://turbochaos.blogspot.sk/2013/09/linux-rootkits-101-1-of-3.html
-[29] "Linux Rootkits 201" http://turbochaos.blogspot.sk/2013/10/writing-linux-rootkits-201-23.html
-[30] "Linux Rootkits 301" http://turbochaos.blogspot.sk/2013/10/writing-linux-rootkits-301_31.html
-[31] "Salted Password Hashing Doing it Right" http://www.codeproject.com/Articles/704865/Salted-Password-Hashing-Doing-it-Right
-[32] http://www.madboa.com/geek/openssl/
-[33] "Is there any particular reason to use Diffie-Hellman over RSA for key exchange?" http://security.stackexchange.com/questions/35471/is-there-any-particular-reason-to-use-diffie-hellman-over-rsa-for-key-exchange
-[34] "What's the fundamental difference between Diffie-Hellman and RSA?" http://crypto.stackexchange.com/questions/2867/whats-the-fundamental-difference-between-diffie-hellman-and-rsa
-[35] "Applied Cryptography" by Bruce Schneier
+[6] "Hacking: The Art of Exploitation" by Jon Erickson 
+[7] "Gray Hat Python: Python Programming for Hackers and Reverse Engineers" by Justin Seitz
+[8] http://opensecuritytraining.info/Training.html
+[9] "IDA Pro Book by Chris Eagle" http://www.nostarch.com/idapro2.htm
+[10] http://www.blackhat.com/presentations/bh-usa-04/bh-us-04-eagle.pdf
+[11] http://www.hackerschool.org/HS_Boards/data/Lib_windows/%5BBlackHat%5Deagle_ida_pro_06.pdf
+[12] "Reverse Engineering for Beginners" by Dennis Yurichev http://yurichev.com/writings/RE_for_beginners-en.pdf
+[13] http://en.wikipedia.org/wiki/List_of_file_signatures  
+[14] "Breaking AV software" by Joxean Koret http://mincore.c9x.org/breaking_av_software.pdf 
+[15] "Attacks on Virtual Machine Emulators" by Peter Ferrie http://www.symantec.com/avcenter/reference/Virtual_Machine_Threats.pdf 
 
-=== Windows kernel debugging
+=== Windows
 
-[1] http://briolidz.wordpress.com/2012/03/28/windows-driver-debugging-with-windbg-and-vmware/
-[2] http://www.windbg.info/doc/1-common-cmds.html#17_variables
-[3] http://msdn.microsoft.com/en-us/library/windows/hardware/ff550659(v=vs.85).aspx
-[4] http://www.woodmann.com/forum/archive/index.php/t-6713.html
-[5] http://blogs.technet.com/b/markrussinovich/archive/2010/10/14/3360991.aspx
-[6] http://disruptivesql.wordpress.com/
+[1] http://securityxploded.com/security-training-reversing-malware-analysis.php 
+[2] http://securityxploded.com/security-training-advanced-malware-analysis.php
+[3] "The Art of Unpacking part 1" https://www.blackhat.com/presentations/bh-usa-07/Yason/Presentation/bh-usa-07-yason.pdf
+[4] "The Art of Unpacking part 2" https://www.blackhat.com/presentations/bh-usa-07/Yason/Whitepaper/bh-usa-07-yason-WP.pdf
+[5] "A study of the packer problem and its solutions" by Fanglu Guo, Peter Ferrie, Tzi-cker Chiueh http://www.ecsl.cs.sunysb.edu/tr/TR237.pdf
+[6] "Anti-Unpacker Tricks by Peter Ferrie" http://pferrie.tripod.com/papers/unpackers.pdf
+[7] "How to Write Your Own Packer" by BigBoote http://www.stonedcoder.org/~kd/lib/61-267-1-PB.pdf  
+[8] "A model for Self-Modifying Code" by Bertrand Anckaert, Matias Madou, Koen De Bosschere http://tuts4you.com/download.php?view.3529
+[9] ARTeam eZine http://www.accessroot.com/arteam/site/download.php?list.8  
+[10] "Demystifying .NET RE part 1" http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-part-1-big-introduction/
+[11] "Demystifying .NET RE part 2" http://resources.infosecinstitute.com/dot-net-reverse-engineering-part-2/
+[12] "Demistifying .NET RE part 3" http://resources.infosecinstitute.com/dot-net-reverse-engineering-part-3/
+[13] http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-introducing-round-trip-engineering/
+[14] http://resources.infosecinstitute.com/demystifying-dot-net-reverse-engineering-advanced-round-trip-engineering/
+[15] http://briolidz.wordpress.com/2012/03/28/windows-driver-debugging-with-windbg-and-vmware/
+[16] http://www.windbg.info/doc/1-common-cmds.html#17_variables
+[17] http://msdn.microsoft.com/en-us/library/windows/hardware/ff550659(v=vs.85).aspx
+[18] http://www.woodmann.com/forum/archive/index.php/t-6713.html
+[19] http://blogs.technet.com/b/markrussinovich/archive/2010/10/14/3360991.aspx
+[20] http://disruptivesql.wordpress.com/
+[21] http://waleedassar.blogspot.sk/2012/03/visual-basic-malware-part-1.html
+[22] "Visual Basic Reversed - A decompiling approach" by Andrea Geddon http://www.reteam.org/papers/e46.pdf  
+[23] http://www.codeproject.com/Articles/19648/Get-interrupt-vector-information-in-Windows
+[24] http://resources.infosecinstitute.com/protected-mode-and-the-idt/
+[25] "Detecting Virtual Machines" by Waliedassar http://reverseengineering.stackexchange.com/a/1828  
+[26] "Coding malware for fun and not for profit" http://www.malwaretech.com/2014/04/coding-malware-for-fun-and-not-for.html
+[27] "Ring3/Ring0 Rookit Hook detection I" http://www.malwaretech.com/2013/09/ring3-ring0-rootkit-hook-detection-12.html
+[28] "Ring3/Ring0 Rootkit Hook Detection II" http://www.malwaretech.com/2013/10/ring3-ring0-rootkit-hook-detection-22.html  
 
-=== Linux kernel
+=== Linux
 
 [1] http://info.fs.tum.de/images/2/21/2011-01-19-kernel-hacking.pdf
 [2] http://jvns.ca/blog/2013/10/07/day-5-i-wrote-a-kernel-module/
@@ -83,15 +97,25 @@ Information sources:
 [13] http://www.blackhat.com/presentations/bh-europe-09/Lineberry/BlackHat-Europe-2009-Lineberry-code-injection-via-dev-mem.pdf
 [14] http://mammon.github.io/
 [15] http://lwn.net/Kernel/LDD3/
+[16] http://www.linuxvoice.com/be-a-kernel-hacker/?pk_campaign=hn&pk_kwd=3
+[17] "Linux Rootkits 101" http://turbochaos.blogspot.sk/2013/09/linux-rootkits-101-1-of-3.html
+[18] "Linux Rootkits 201" http://turbochaos.blogspot.sk/2013/10/writing-linux-rootkits-201-23.html
+[19] "Linux Rootkits 301" http://turbochaos.blogspot.sk/2013/10/writing-linux-rootkits-301_31.html 
+[20] "Malware Forensics Field Guide for Linux Systems" by Cameron H. Malin, Eoghan Casey, James M. Aquilina
+[21] http://ouah.org/RevEng/
+[22] "Linux Device Drivers" https://lwn.net/Kernel/LDD3/ 
+[23] "Linux x86 run-time process manipulation" http://hick.org/code/skape/papers/needle.txt
+[24] "How to detect virtualization on Linux" http://www.dmo.ca/blog/detecting-virtualization-on-linux/  
+[25] "ptrace() tutorial" http://mikecvet.wordpress.com/2010/08/14/ptrace-tutorial/
+[26] "ptrace() on 64-bit system" http://theantway.com/2013/01/notes-for-playing-with-ptrace-on-64-bits-ubuntu-12-10/  
 
 === Mac OSX
 
 [1] http://0xfeedface.org/~shawn/docs
 [2] http://reverse.put.as/
 [3] http://samhuri.net/blog/2010.01.18-basics-of-the-mach-o-file-format
-[4] http://en.wikipedia.org/wiki/List_of_file_signatures
-[5] IDA FIX OBJC_MSGSEND SCRIPT https://github.com/zynamics/objc-helper-plugin-ida
-[6] http://www.sysprobs.com/os-x-mountain-lion-10-8-3-vmware-image-how-to-run-on-windows-7-8
-[7] http://www.sysprobs.com/vmware-workstation-8-0-8-0-1-unlocker-to-run-mac-os-x-guest-in-windows-7
-[8] http://archive.org/details/RECON2008 (T06)
-[9] "The Mac Hacker's Handbook" by Charlie Miller
+[4] IDA FIX OBJC_MSGSEND SCRIPT https://github.com/zynamics/objc-helper-plugin-ida
+[5] http://www.sysprobs.com/how-to-use-os-x-10-9-vmware-image-windows-8-windows 
+[6] http://www.sysprobs.com/vmware-workstation-8-0-8-0-1-unlocker-to-run-mac-os-x-guest-in-windows-7 
+[7] http://archive.org/details/RECON2008 (T06)
+[8] "The Mac Hacker's Handbook" by Charlie Miller
