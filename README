@@ -78,7 +78,8 @@ Information sources:
 [25] "Detecting Virtual Machines" by Waliedassar http://reverseengineering.stackexchange.com/a/1828  
 [26] "Coding malware for fun and not for profit" http://www.malwaretech.com/2014/04/coding-malware-for-fun-and-not-for.html
 [27] "Ring3/Ring0 Rookit Hook detection I" http://www.malwaretech.com/2013/09/ring3-ring0-rootkit-hook-detection-12.html
-[28] "Ring3/Ring0 Rootkit Hook Detection II" http://www.malwaretech.com/2013/10/ring3-ring0-rootkit-hook-detection-22.html  
+[28] "Ring3/Ring0 Rootkit Hook Detection II" http://www.malwaretech.com/2013/10/ring3-ring0-rootkit-hook-detection-22.html
+[29] "Practical Reverse Engineering: x86, x64, ARM, Windows Kernel, Reversing Tools, and Obfuscation" by Bruce Dang, Alexandre Gazet, Elias Bachaalany and Sebastien Josse 
 
 === Linux
 
@@ -109,6 +110,7 @@ Information sources:
 [25] "ptrace() tutorial" http://mikecvet.wordpress.com/2010/08/14/ptrace-tutorial/
 [26] "ptrace() on 64-bit system" http://theantway.com/2013/01/notes-for-playing-with-ptrace-on-64-bits-ubuntu-12-10/
 [27] http://www.ouah.org/linux-anti-debugging.txt  
+[28] http://www.ouah.org/core-reconstruction.txt 
 
 === Mac OSX
 
