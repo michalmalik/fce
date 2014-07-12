@@ -112,6 +112,25 @@ Information sources:
 [26] "ptrace() on 64-bit system" http://theantway.com/2013/01/notes-for-playing-with-ptrace-on-64-bits-ubuntu-12-10/
 [27] http://www.ouah.org/linux-anti-debugging.txt  
 [28] http://www.ouah.org/core-reconstruction.txt 
+[29] http://www.ouah.org/textes.html
+[30] "Runtime binary encryption" http://phrack.org/issues/58/5.html
+[31] "Next-Gen Runtime Binary Encryption" http://phrack.org/issues/63/13.html
+[32] "Mechanisms to determine VMWare VM" http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1009458
+[33] "Startup state of a Linux/i386 ELF binary" http://asm.sourceforge.net/articles/startup.html
+[34] https://code.google.com/p/corkami/downloads/list
+[35] http://ouah.org/unix-viruses.txt
+[36] http://ouah.org/elf-pv.txt
+[37] "The ELF virus writing howto" http://virus.bartolich.at/virus-writing-HOWTO/_html/index.html
+[38] "Linux viruses - ELF file format" by Marius Van Oers http://www.mcafee.com/us/resources/white-papers/wp-linux-viruses-elf-file-format.pdf
+[39] "The WIT virus" http://vanilla47.com/PDFs/Viruses In Linux PDFs/The WIT Virus.pdf
+[40] "Brundle Fly virus" http://vx.org.ua/src_view.php?file=brundle.zip
+[41] "Linux.RST.B" http://www.symantec.com/security_response/writeup.jsp?docid=2004-052312-2729-99&tabid=2
+[42] "How I made MetaPHOR and what I've learnt" http://vxheavens.com/lib/vmd01.html
+[43] "Cheating the ELF Subversive Dynamic Linking to Libraries" http://www.ouah.org/subversiveld.pdf
+[44] "Reverse of a coin: A short note on segment alignment" http://vxheavens.com/lib/vhe04.html
+[45] "Shiva - Advances in ELF Binary Encryption" https://www.blackhat.com/presentations/bh-usa-03/bh-us-03-mehta/bh-us-03-mehta.pdf
+[46] "Burneye protector" http://packetstormsecurity.com/files/30648/burneye-1.0.1-src.tar.bz2.html
+[47] "ELF Encrypter" http://elf-encrypter.sourceforge.net/
 
 === Mac OSX
 
