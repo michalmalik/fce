@@ -131,6 +131,10 @@ Information sources:
 [45] "Shiva - Advances in ELF Binary Encryption" https://www.blackhat.com/presentations/bh-usa-03/bh-us-03-mehta/bh-us-03-mehta.pdf
 [46] "Burneye protector" http://packetstormsecurity.com/files/30648/burneye-1.0.1-src.tar.bz2.html
 [47] "ELF Encrypter" http://elf-encrypter.sourceforge.net/
+[48] "Anatomy of the Linux kernel" http://www.ibm.com/developerworks/linux/library/l-linux-kernel/index.html
+[49] "Anatomy of a system call, part 1" http://lwn.net/Articles/604287/
+[50] "Anatomy of a system call, part 2" http://lwn.net/SubscriberLink/604515/7970195bd8eba7a9/
+[51] "Anatomy of Linux process management" http://www.ibm.com/developerworks/linux/library/l-linux-process-management/index.html
 
 === Mac OSX
 
