@@ -1,6 +1,6 @@
 === fce
 
-just a collection of code that I wrote and put here for safekeeping purposes
+Just a collection of code that I wrote/borrowed and put here for safekeeping purposes.
 
 Information sources:
 
@@ -90,8 +90,8 @@ Information sources:
 [4] http://rpinfosec.blogspot.sk/2012/06/hooking-linux-system-call-table-in-2012.html
 [5] http://stackoverflow.com/questions/2103315/linux-kernel-system-call-hooking-example
 [6] http://kernelnewbies.org/Networking?action=AttachFile&do=get&target=hacking_the_wholism_of_linux_net.txt
-[7] http://phrack.org/issues.html?issue=67&id=6#article
-[8] http://www.phrack.org/issues.html?issue=59&id=4
+[7] "Kernel instrumentation using kprobes" http://phrack.org/issues.html?issue=67&id=6#article
+[8] "Handling Interrupt Descriptor Table for fun and profit" http://www.phrack.org/issues.html?issue=59&id=4
 [9] http://kernelnewbies.org/New_Kernel_Hacking_HOWTO
 [10] https://ruinedsec.wordpress.com/2013/04/04/modifying-system-calls-dispatching-linux/
 [11] http://www.blackhat.com/presentations/bh-europe-09/Lineberry/BlackHat-Europe-2009-Lineberry-code-injection-via-dev-mem-slides.pdf
@@ -135,6 +135,13 @@ Information sources:
 [49] "Anatomy of a system call, part 1" http://lwn.net/Articles/604287/
 [50] "Anatomy of a system call, part 2" http://lwn.net/SubscriberLink/604515/7970195bd8eba7a9/
 [51] "Anatomy of Linux process management" http://www.ibm.com/developerworks/linux/library/l-linux-process-management/index.html
+[52] http://www.vxheavens.com/herm1t/
+[53] http://old.honeynet.org/reverse/results/sol/sol-06/analysis.html
+[54] "About ELF Auxiliary Vectors" http://articles.manugarg.com/aboutelfauxiliaryvectors.html
+[55] "What is linux-gate.so.1?" http://www.trilithium.com/johan/2005/08/linux-gate/
+[56] "The Cerberus ELF interface" http://phrack.org/issues/61/8.html#article
+[57] "Reverse Engineering Linux ELF Binaries on the x86 Platform" http://www.linuxsa.org.au/meetings/reveng-0.2.pdf
+[58] http://www.cs.columbia.edu/~junfeng/10sp-w4118/lectures/l07-proc-linux.pdf
 
 === Mac OSX
 

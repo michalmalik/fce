@@ -1,0 +1,11 @@
+=== antivm.asm
+
+1. Virtual machines don't contain a valid idtr.base address, that's why a bogus address > 0xfff00000 is returned.
+2. VirtualBox can be (also) found by examining /proc/scsi/scsi file and looking for "VBOX" string. 
+
+=== tiny.asm
+
+Basically a copy from "A Whirlwind Tutorial on Creating Really Teensy ELF Executables for Linux" [1]
+
+
+[1] http://www.muppetlabs.com/~breadbox/software/tiny/teensy.html
