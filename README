@@ -18,6 +18,7 @@ Information sources:
 [10] "x86_64 assembly" http://www.x86-64.org/documentation/assembly.html
 [11] http://sandpile.org/
 [12] "Roll your own UNIX distro" http://www.jamesmolloy.co.uk/tutorial_html/index.html
+[13] "Writing a simple Operating System from scratch" http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
 
 === Cryptography
 
@@ -31,7 +32,7 @@ Information sources:
 [8] "Applied Mathematics for Reversers II" by Haldir[RET] http://www.reteam.org/papers/e31.pdf
 [9] "Applied Mathematics for Reversers III" by Haldir[RET] http://www.reteam.org/papers/e36.pdf 
 
-=== General RE/hacking
+=== General RE/hacking/programming
 
 [1] "The Rootkit Arsenal: Escape and Evasion in the Dark Corners of the System" by Bill Bunden
 [2] "Security Engineering" by Ross Anderson http://www.cl.cam.ac.uk/~rja14/book.html
@@ -49,6 +50,9 @@ Information sources:
 [14] "Breaking AV software" by Joxean Koret http://mincore.c9x.org/breaking_av_software.pdf 
 [15] "Attacks on Virtual Machine Emulators" by Peter Ferrie http://www.symantec.com/avcenter/reference/Virtual_Machine_Threats.pdf 
 [16] "RECON14 presentations" http://recon.cx/2014/slides/
+[17] "A python tool to identify different Hash Function Algorithms" https://github.com/AnimeshShaw/Hash-Algorithm-Identifier
+[18] "NoSuchCon14 slides" http://www.nosuchcon.org/talks/2014/
+[19] "A Quick Tutorial on Implementing and Debugging Malloc, Free, Calloc, and Realloc" http://danluu.com/malloc-tutorial/
 
 === Windows
 
@@ -146,9 +150,13 @@ Information sources:
 [60] "PIC and x86-64 libraries" https://www.technovelty.org/c/position-independent-code-and-x86-64-libraries.html
 [61] "PIC in shared libraries" http://eli.thegreenplace.net/2011/11/03/position-independent-code-pic-in-shared-libraries/
 [62] "PIC in shared libraries on x64" http://eli.thegreenplace.net/2011/11/11/position-independent-code-pic-in-shared-libraries-on-x64/
-[63] "Understanding x64 code mdoels" http://eli.thegreenplace.net/2012/01/03/understanding-the-x64-code-models/
+[63] "Understanding x64 code models" http://eli.thegreenplace.net/2012/01/03/understanding-the-x64-code-models/
 [64] "Dynamic linking and x86_64 internals" http://sploitfun.blogspot.sk/2013/07/dynamic-linking-x8664-internals.html
 [65] "System V ABI x86-64 Linux" http://www.x86-64.org/documentation/abi.pdf
+[66] "Linux x86 Program Start Up" http://dbp-consulting.com/tutorials/debugging/linuxProgramStartup.html
+[67] "The dissection of a simple hello world ELF file" https://github.com/mewrev/dissection
+[68] "How statically linked programs run on Linux" http://eli.thegreenplace.net/2012/08/13/how-statically-linked-programs-run-on-linux
+[69] "100 GDB tips" https://github.com/hellogcc/100-gdb-tips/tree/master/src
 
 === Mac OSX
 
