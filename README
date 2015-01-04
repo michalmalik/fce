@@ -163,6 +163,7 @@ Information sources:
 [73] "Dynamic linking (x86) internals" http://sploitfun.blogspot.sk/2013/06/dynamic-linking-internals.html
 [74] "Static linking (x86_64) internals" http://sploitfun.blogspot.sk/2013/07/static-linking-x8664-internals.html
 [75] "Dynamic linking and x86_64 internals" http://sploitfun.blogspot.sk/2013/07/dynamic-linking-x8664-internals.html
+[76] "Load-time relocation of shared libraries" http://eli.thegreenplace.net/2011/08/25/load-time-relocation-of-shared-libraries
 
 === Mac OSX
 
