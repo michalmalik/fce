@@ -91,13 +91,13 @@ Information sources:
 [1] http://info.fs.tum.de/images/2/21/2011-01-19-kernel-hacking.pdf
 [2] http://jvns.ca/blog/2013/10/07/day-5-i-wrote-a-kernel-module/
 [3] https://github.com/citypw/citypw-SCFE/tree/master/security
-[4] http://rpinfosec.blogspot.sk/2012/06/hooking-linux-system-call-table-in-2012.html
+[4] "Hooking the Linux System Call Table in 2012" http://rpinfosec.blogspot.sk/2012/06/hooking-linux-system-call-table-in-2012.html
 [5] http://stackoverflow.com/questions/2103315/linux-kernel-system-call-hooking-example
 [6] http://kernelnewbies.org/Networking?action=AttachFile&do=get&target=hacking_the_wholism_of_linux_net.txt
 [7] "Kernel instrumentation using kprobes" http://phrack.org/issues.html?issue=67&id=6#article
 [8] "Handling Interrupt Descriptor Table for fun and profit" http://www.phrack.org/issues.html?issue=59&id=4
 [9] http://kernelnewbies.org/New_Kernel_Hacking_HOWTO
-[10] https://ruinedsec.wordpress.com/2013/04/04/modifying-system-calls-dispatching-linux/
+[10] "Intercepting System Calls and Dispatchers – Linux" https://ruinedsec.wordpress.com/2013/04/04/modifying-system-calls-dispatching-linux/
 [11] http://www.blackhat.com/presentations/bh-europe-09/Lineberry/BlackHat-Europe-2009-Lineberry-code-injection-via-dev-mem-slides.pdf
 [12] http://www.la-samhna.de/library/rootkits/index.html
 [13] http://www.blackhat.com/presentations/bh-europe-09/Lineberry/BlackHat-Europe-2009-Lineberry-code-injection-via-dev-mem.pdf
@@ -114,7 +114,7 @@ Information sources:
 [24] "How to detect virtualization on Linux" http://www.dmo.ca/blog/detecting-virtualization-on-linux/  
 [25] "ptrace() tutorial" http://mikecvet.wordpress.com/2010/08/14/ptrace-tutorial/
 [26] "ptrace() on 64-bit system" http://theantway.com/2013/01/notes-for-playing-with-ptrace-on-64-bits-ubuntu-12-10/
-[27] http://www.ouah.org/linux-anti-debugging.txt  
+[27] "LINUX ANTI-DEBUGGING TECHNIQUES (FOOLING THE DEBUGGER)" http://www.ouah.org/linux-anti-debugging.txt  
 [28] http://www.ouah.org/core-reconstruction.txt 
 [29] http://www.ouah.org/textes.html
 [30] "Runtime binary encryption" http://phrack.org/issues/58/5.html
@@ -122,8 +122,8 @@ Information sources:
 [32] "Mechanisms to determine VMWare VM" http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1009458
 [33] "Startup state of a Linux/i386 ELF binary" http://asm.sourceforge.net/articles/startup.html
 [34] https://code.google.com/p/corkami/downloads/list
-[35] http://ouah.org/unix-viruses.txt
-[36] http://ouah.org/elf-pv.txt
+[35] "UNIX VIRUSES" http://ouah.org/unix-viruses.txt
+[36] "UNIX ELF PARASITES AND VIRUS" http://ouah.org/elf-pv.txt
 [37] "The ELF virus writing howto" http://virus.bartolich.at/virus-writing-HOWTO/_html/index.html
 [38] "Linux viruses - ELF file format" by Marius Van Oers http://www.mcafee.com/us/resources/white-papers/wp-linux-viruses-elf-file-format.pdf
 [39] "The WIT virus" http://vanilla47.com/PDFs/Viruses In Linux PDFs/The WIT Virus.pdf
